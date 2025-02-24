@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* CSS tổng */
+.container{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+/* CSS phần đầu */
+.navar{
+    background-color: #FEF0E3;
+    width: 1440px;
+    height: 111px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navar .content{
+    display: flex;
+    justify-content: space-between;
+    width: 1240px;
+    height: 38px;
+}
+
+.navar .content .right{
+    display: flex;
+    gap:10px;
+    width: 268px;
+    height: 43px;
+}
+.navar .content .right p{
+    font-size: 14px;
+    padding-top: 3px;
+}
+.navar .content .right div{
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 170px;
+    height: 30px;
+    text-align: center;
+    padding: 3px;
+}
+/* CSS thân */
+
+/* CSS phần thứ nhất */
+.header{
+    width: 1440px;
+    height: 913px;
+    display: flex;
+    border-top: 2px solid black;
+}
+.header-left{
+    background-color: #F9DBC1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 720px;
+    padding-left: 20px;
+    padding-right: 350px;
+}
+.header-left h1{
+    font-weight: 600;
+}
+.header-left .content{
+    display: flex;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    gap: 10px;
+}
+.header-left .content .content-left{
+    display: flex;
+}
+.header-left .content .content-left .left{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.header-left .content .content-right{
+    display: flex;
+}
+.header-left .content .content-right .left{
+    font-size: 35px;
+    font-weight: 600;
+}
+.header-left h4{
+    background-color: #AC82FC;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 222px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+/* CSS phần thứ hai */
+.main{
+    background-color: #C6C2CD;
+    width: 1440px;
+    height: 1309px;
+}
+.main .main-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.main .main-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.main .main-grid .grid{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.main .main-grid .grid h2{
+    font-size: 24px;
+}
+.main .main-grid .grid p{
+    width: 592px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+/* CSS phần thứ ba */
+.main-footer{
+    background-color: #FFD7D4;
+    height: 496px;
+    width: 1440px;
+}
+.main-footer .main-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.main-footer .main-top b{
+    font-size: 48px;
+    font-weight: 500;
+}
+.main-footer .main-top p{
+    width: 494px;
+    color: #565656;
+}
+.main-footer .main-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.main-footer .main-bottom .bottom{
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    padding-top: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-footer .main-bottom .bottom img{
+    background-color: #AC82FC;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.main-footer .main-bottom .bottom p{
+    color: #565656;
+}
+/* CSS phần chân trang */
+.footer{
+    background-color: black;
+    color: #FFFFFF;
+    width: 1440px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    font-size: 12px;
+}
+
